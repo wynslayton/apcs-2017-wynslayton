@@ -6,17 +6,18 @@
 import java.util.Scanner;
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
+import java.util.*;
 
 import java.text.*;//only imports what is used in code from this
 
-public class chapter2pro10			//file and class name mustttttt match
+public class myfirstprogram			//file and class name mustttttt match
 {
 	//put constants here
 	final static double PI = 3.1415;
 public static void main (String[] args)	// must have main
 {
 /**/
-	double num, num2;
+	//double num, num2;
 	//String name = new String();
 	//Scanner keyboard = new Scanner(System.in);
 	//DecimalFormat fmt2dec = new DecimalFormat("0.##"); //floats max number of ## marks
@@ -50,7 +51,7 @@ public static void main (String[] args)	// must have main
 	//%marks places for var to display
 	//System.out.printf("%.1f to the power of 6 = $%,.2f \n", num, num2);
 
-		int x,y;
+	/*	int x,y;
 		x = 2; y = 5; //Equals operator has the lowest precidence
 
 		num = x/y;
@@ -61,6 +62,57 @@ public static void main (String[] args)	// must have main
 
 
 		System.out.println(a);
+
+	*/
+
+/*
+	String word = new String("Jimmy Neutron");
+	String word1 = word;
+	//word1 = "Jimmy Neutron";
+	String word2 = new String("Jimmy Neutron");
+
+
+	//Returns either true of false
+	System.out.println(".equals(): " + word.equals(word1));
+	System.out.println("== : " +(word == word1));
+
+	//.equals() compares criteria/value; == compares if the objects are the same
+
+	System.out.println(".equals(): " + word.equals(word2));//true because it finds the value of each to be equal CRITERIA
+	System.out.println("== : " +(word1 == word2));//Finds whether they are the same object or not OBJECT
+
+	//word is immutable, by redefining word1 that makes a new object, even if their values are equivilent w1 and w are not the same
+
+/**//*
+
+	String name = new String("Alexander M Kashyap");
+	String lname = "Hayes", fname = "Kevin", mname;
+
+	fname = "Thomas"; //string is special define like primitive data
+
+	//string methods pg 78
+	System.out.println(fname.length() );
+	System.out.println(name.replace('a','*' )); //(n,n-1) n to n-1 (n) goes t the end of the string
+	System.out.println(name.compareTo(fname)); //compares where I am in realation to you
+	System.out.println(name.substring(2,6));
+
+
+/**/
+	int length;
+	int x = 9;
+	int id =789;
+	double num = 5;
+
+	Integer number = new Integer(47);//int is basic data, Integer is a class
+	number = id;//autoboxing
+	System.out.println(number );
+
+	System.out.println(Integer.MAX_VALUE );
+	System.out.println(Integer.parseInt("56") +1 );
+	System.out.println("56" + 1);
+
+	//ArrayList<int> grades = new ArrayList<int>();
+	ArrayList<Integer> grades = new ArrayList<Integer>();
 
 
 	/*Systm.out.print("""
