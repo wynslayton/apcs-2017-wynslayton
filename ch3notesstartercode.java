@@ -17,10 +17,20 @@ public class ch3notesstartercode
 public static void main (String [] args)
 {
 
-/* ===============================================================
-	   String word = "apple";
-		String word1 = "cat";
-		String word2 = "dog";
+/**/
+	String word1 = "apple";
+	String word2 = "cat";
+	String word3 = "dog";
+
+	//word2 is related to other
+	// < -1
+	// == 0
+	// > +1
+	if (word2.compareTo(word1) < 0)
+		System.out.println(word2 +" is before " + word1);
+
+	if (word2.compareTo(word3) < 0)
+		System.out.println(word2 +" is before " + word3);
 
 /*
 
