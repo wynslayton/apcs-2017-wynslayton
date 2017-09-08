@@ -26,12 +26,13 @@ public static void main (String [] args)
 	// < -1
 	// == 0
 	// > +1
-	if (word2.compareTo(word1) < 0)
+	if (word2.compareTo(word1) < 0)// Semicolon ends a statement, BADBADBADBADBADBADBADBADBADBDABDABDABDABDAB SEMICOLON
 		System.out.println(word2 +" is before " + word1);
-
+	else
+		System.out.println(word1 +" is before " + word2);
 	if (word2.compareTo(word3) < 0)
 		System.out.println(word2 +" is before " + word3);
-
+//ctrl M - will match a bracket
 /*
 
       int num = 5, num1 =10, num2 = 4;  // standard hours in a work week
