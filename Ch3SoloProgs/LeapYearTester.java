@@ -1,40 +1,35 @@
-
-
-/**
- * Write a description of class LeapYearTester here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+//Wynant Slayton
+//APCS p 2
+//9/28/2017
+//This program will test if a year is a leap year from the first year the gregorian calender was created
+import java.util.*;
 public class LeapYearTester
 {
-    /** description of instance variable x (add comment for each instance variable) */
-    private int x;
-
-    /**
-     * Default constructor for objects of class LeapYearTester
-     */
-    public LeapYearTester()
+    public static void main (String [] args)
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *    that describes the operation of the method
-     *
-     * @pre        preconditions for the method
-     *            (what the method assumes about the method's parameters and class's state)
-     * @post    postconditions for the method
-     *            (what the method guarantees upon completion)
-     * @param    y    description of parameter y
-     * @return    description of the return value
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x+y;
-    }
-
-}
+        int year;
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Enter your year to be tested: ");
+        year = scan.nextInt();
+        if (year < 1582){
+            System.out.println("\nNO CALENDER YET");
+        }
+        else if ((year % 4) == 0){
+            if ((year % 100) == 0){
+                if ((year % 400) == 0){
+                    System.out.println("\nLeap Year!");
+                }
+                else{
+                    System.out.println("\nNot a leap year.");
+                }
+            }
+            else{
+                System.out.println("\nLeap Year!");
+            }
+        }
+        else{
+            System.out.println("\nNot a leap year.");
+        }
+    }//end of main
+}//end of class
