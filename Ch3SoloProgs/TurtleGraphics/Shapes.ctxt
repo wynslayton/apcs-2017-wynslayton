@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Shapes
+comment1.params=
+comment1.target=Shapes()
+comment2.params=width\ height
+comment2.target=Shapes(int,\ int)
+comment3.params=color
+comment3.target=void\ setColor(java.awt.Color)
+comment4.params=x1\ y1\ x2\ y2
+comment4.target=void\ drawLine(double,\ double,\ double,\ double)
+comment5.params=x\ y\ r
+comment5.target=void\ drawCircle(double,\ double,\ double)
+comment6.params=x\ y\ w\ h
+comment6.target=void\ drawRectangle(double,\ double,\ double,\ double)
+numComments=7

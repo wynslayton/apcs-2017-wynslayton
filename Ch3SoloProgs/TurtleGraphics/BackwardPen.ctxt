@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BackwardPen
+comment1.params=
+comment1.target=BackwardPen()
+comment2.params=p
+comment2.target=BackwardPen(SketchPad)
+comment3.params=win
+comment3.target=BackwardPen(SketchPadWindow)
+comment4.params=text
+comment4.target=void\ drawString(java.lang.String)
+comment5.params=x\ y
+comment5.target=void\ drawLine(double,\ double)
+numComments=6

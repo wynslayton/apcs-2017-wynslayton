@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CommandDrawString
+comment1.params=s\ y1\ y2
+comment1.target=CommandDrawString(java.lang.String,\ double,\ double)
+comment2.params=g\ width\ height
+comment2.target=void\ doCommand(java.awt.Graphics2D,\ int,\ int)
+numComments=3

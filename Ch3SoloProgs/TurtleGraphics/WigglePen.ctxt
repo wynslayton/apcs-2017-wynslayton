@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WigglePen
+comment1.params=
+comment1.target=WigglePen()
+comment2.params=win
+comment2.target=WigglePen(SketchPadWindow)
+comment3.params=pad\ w\ wa
+comment3.target=WigglePen(SketchPad,\ int,\ double)
+comment4.params=distance
+comment4.target=void\ move(double)
+comment5.params=x\ y
+comment5.target=void\ move(double,\ double)
+numComments=6
