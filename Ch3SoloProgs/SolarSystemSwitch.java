@@ -7,10 +7,12 @@ public class SolarSystemSwitch
 {
     public static void main (String [] args)
     {
+        //Defines variables
         Scanner scan = new Scanner(System.in);
         double weight;
         char planet;
         
+        //Menu
         System.out.println("~~~~~~~~~~~~~~Pick Your Planet!~~~~~~~~~~~~~~");
         System.out.println("0: Mercury");
         System.out.println("1: Venus");
@@ -30,6 +32,7 @@ public class SolarSystemSwitch
         
         System.out.println("\n\nDrumroll Please\n\n");
         
+        //Uses a switch to cascade down find, calculate, and print your weight
         switch (planet){
             case '0':
                 weight = weight * 0.378;

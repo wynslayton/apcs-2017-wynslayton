@@ -23,39 +23,39 @@ public class Minivan{
         or = inp.charAt(7);
         gear = inp.charAt(8);
         
-        if (gear == 'P'){
-            if (mu == 1){
-                if (cl == 0){
-                    if (dl == 1 || il == 1 || ol == 1){
+        if (gear == 'P'){ //tests for park
+            if (mu == '1'){ //tests for master lock
+                if (cl == '0'){ //tests for child lock
+                    if (dl == '1' || il == '1' || ol == '1'){ //left door testing
                         System.out.println("Left door open.");
                     }
                     else{
                         System.out.println("Left door closed.");
                     }
-                    if (dr == 1 || ir == 1 || or == 1){
+                    if (dr == '1' || ir == '1' || or == '1'){ //right door testing
                         System.out.println("Right door open.");
                     }
                     else{
-                        System.out.println("Left door closed.");
+                        System.out.println("Right door closed.");
                     }
                 }
                 else{
-                    if (dl == 1 || ol == 1){
+                    if (dl == '1' || ol == '1'){ //left door testing
                         System.out.println("Left door open.");
                     }
                     else{
                         System.out.println("Left door closed.");
                     }
-                    if (dr == 1 || or == 1){
+                    if (dr == '1' || or == '1'){ //right door testing
                         System.out.println("Right door open.");
                     }
                     else{
-                        System.out.println("Left door closed.");
+                        System.out.println("Right door closed.");
                     }
                 }
             }
             else{
-                System.out.println("\nMaster unlock off.");
+                System.out.println("\nMaster unlock off, nothing will open.");
             }
         }
         else{
@@ -64,3 +64,17 @@ public class Minivan{
     }//end of main
 }//end of class
 
+/* Output 1
+ * Please enter in the variables next to each other in the order of driver left, right, child lock, master unlock, inside left, inside right, outside left, outside right, and the gear.
+00111100P
+Left door closed.
+Right door closed.
+
+Output 2
+Please enter in the variables next to each other in the order of driver left, right, child lock, master unlock, inside left, inside right, outside left, outside right, and the gear.
+11111100P
+Left door open.
+Right door open.
+
+
+ */

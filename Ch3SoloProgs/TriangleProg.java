@@ -20,7 +20,10 @@ public class TriangleProg
         System.out.print("\nValue 3:");
         c = scan.nextDouble();
         
-        if (choice == 1.0){
+        if (a == 0 || b == 0 || c == 0){
+            System.out.println("\nIt doesn't work, you're bad");
+        }
+        else if (choice == 1.0){
             if ((a + b + c) == 180.0){
                 System.out.println("\nIt works!");
             }
@@ -32,7 +35,5 @@ public class TriangleProg
             }
             else{System.out.println("\nIt doesn't work, you're bad");}
         }
-        
-        
     }//end of main
 }//end of class
