@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CommandSetPenWidth
+comment1.params=w
+comment1.target=CommandSetPenWidth(int)
+comment2.params=g\ width\ height
+comment2.target=void\ doCommand(java.awt.Graphics2D,\ int,\ int)
+numComments=3

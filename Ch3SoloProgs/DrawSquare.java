@@ -20,6 +20,13 @@ public static void main(String[] args)
     pen.down();
     pen.setColor(Color.red);
     
+    //circle
+    for(int k = 0; k < 100; k ++){
+        pen.move(5);
+        pen.turn(3.6);
+    }
+    
+    /*
     pen.move(50);
     pen.turn(90);
     pen.move(50);
@@ -31,7 +38,7 @@ public static void main(String[] args)
     pen.move(50);
     pen.turn(157);
     pen.move(95);
-
+    */
 
     pen.setColor(Color.red);
 
