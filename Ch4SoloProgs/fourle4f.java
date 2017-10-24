@@ -1,40 +1,21 @@
+import java.util.*;
+import java.awt.*;
+import java.lang.Math;
 
 
-/**
- * Write a description of class fourle4f here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class fourle4f
 {
-    /** description of instance variable x (add comment for each instance variable) */
-    private int x;
-
-    /**
-     * Default constructor for objects of class fourle4f
-     */
-    public fourle4f()
-    {
-        // initialise instance variables
-        x = 0;
+    static void main (String [] args){
+        float x, y, r, w = 0, z;
+        
+        z = (2* PI) /100;
+        
+        for (int steps = 0; steps > 100; steps ++){
+            
+            w += z
+            
+        }
+        
+        
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *    that describes the operation of the method
-     *
-     * @pre        preconditions for the method
-     *            (what the method assumes about the method's parameters and class's state)
-     * @post    postconditions for the method
-     *            (what the method guarantees upon completion)
-     * @param    y    description of parameter y
-     * @return    description of the return value
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x+y;
-    }
-
 }
