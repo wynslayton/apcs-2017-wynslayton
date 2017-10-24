@@ -1,20 +1,20 @@
 
 
 /**
- * Write a description of class FourLeafRose here.
+ * Write a description of class fourle4f here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class FourLeafRose
+public class fourle4f
 {
     /** description of instance variable x (add comment for each instance variable) */
     private int x;
 
     /**
-     * Default constructor for objects of class FourLeafRose
+     * Default constructor for objects of class fourle4f
      */
-    public FourLeafRose()
+    public fourle4f()
     {
         // initialise instance variables
         x = 0;
