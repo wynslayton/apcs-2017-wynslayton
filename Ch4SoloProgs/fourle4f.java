@@ -1,18 +1,35 @@
 import java.util.*;
+import TurtleGraphics.StandardPen;
 import java.awt.*;
 import java.lang.Math;
 
 
 public class fourle4f
 {
-    static void main (String [] args){
-        float x, y, r, w = 0, z;
+    public static void main (String [] args){
+        Random gen = new Random();
+        StandardPen pen = new StandardPen();
         
-        z = (2* PI) /100;
+        //x and y are coordinates, r is the r value, w is the theta value and z is the value of 1/100th of 2PI
+        double x, y, r, w = 0, z;
         
-        for (int steps = 0; steps > 100; steps ++){
+        z = (2* Math.PI) /100;
+        
+
+        pen.up();
+        
+        for (int steps = 0; steps < 101; steps ++){
             
-            w += z
+            w += z;
+            r = Math.cos(2 * w);
+            x = r * Math.cos(w);
+            y = r * Math.sin(w);
+            
+            x *= 100;
+            y *= 100;
+            pen.move(x,y);
+            
+            pen.down();
             
         }
         
