@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Die()
+comment0.text=\r\n\ \ \ \ \ Defaults\ to\ a\ six-sided\ die.\ Initial\ face\ value\ is\ 1.\r\n
+comment1.params=
+comment1.target=int\ roll()
+comment1.text=\r\n\ \ \ \t\tRolls\ the\ die\ and\ returns\ the\ result.\r\n\ \ \ \t\t@return\r\n
+comment2.params=
+comment2.target=int\ getFaceValue()
+comment2.text=\r\n\ \ \ \t\tReturns\ the\ current\ die\ value.\r\n\ \ \ \t\t@return\ _____________________write\ comment\r\n
+comment3.params=
+comment3.target=java.lang.String\ methodName()
+comment3.text=\r\n\ \ \ \t\tReturns\ the\ current\ die\ value\ and\ number\ of\ sides\ as\ a\ String.\r\n\ \ \ \t\t@return\ _____________\r\n
+numComments=4

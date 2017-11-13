@@ -6,7 +6,7 @@ import java.text.NumberFormat;
 public class mathy
 {
     private int area=0;
-
+    //default constructor because it has no variab;es
     /**
         default constructor - stubed in
     */
@@ -49,14 +49,19 @@ public class mathy
 
 
     }//end of add
-
+    /**
+     * two double parameters and adds them
+     * @param 2 double values
+     * @return double sum of values
+     */
 
     public double add (double x,double y)
     {
 
         return x+y;
     }
-
+    
+    //this type of comment generates documentation
     /**
             toString
             message from Mathy class
