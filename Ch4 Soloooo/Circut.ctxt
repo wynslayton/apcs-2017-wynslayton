@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Circut()
+comment1.params=
+comment1.target=int\ getFirstSwitchState()
+comment2.params=
+comment2.target=int\ getSecondSwitchState()
+comment3.params=
+comment3.target=boolean\ getLampState()
+comment4.params=
+comment4.target=void\ toggleFirstSwitch()
+comment5.params=
+comment5.target=void\ toggleSecondSwitch()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
