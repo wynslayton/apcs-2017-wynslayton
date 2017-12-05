@@ -15,15 +15,15 @@ public class CircutBody
         System.out.println(circut);
         int onoff = 0;
         while (onoff != 1){
-            System.out.println("Wat switch u wanna togl? won or too?");
+            System.out.println("Pick your switch to toggle? 1 or 2?");
             int sw = scan.nextInt();
             if (sw == 1)
                 circut.toggleFirstSwitch();
                 else if (sw == 2)
                 circut.toggleSecondSwitch();
                 else
-                System.out.println("Boy you dumb XD");
-            System.out.println("U wann togl 'gain?");
+                System.out.println("Somebody needs to learn how to count...");
+            System.out.println("Do you wanna toggle again? (0 for yes) ");
             onoff = scan.nextInt();
             }
 

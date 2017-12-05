@@ -1,16 +1,23 @@
 #BlueJ class context
 comment0.params=
 comment0.target=Circut()
+comment0.text=\r\n\ This\ creates\ the\ object,\ defining\ both\ switches\ as\ 0,\ or\ off,\ and\ the\ lamp\ state\ as\ false\r\n\ @param\ Nothing\r\n\ @return\ nothing\r\n
 comment1.params=
 comment1.target=int\ getFirstSwitchState()
+comment1.text=\r\n\ This\ gets\ the\ state\ of\ the\ first\ switch\r\n\ @param\ Nothing\r\n\ @return\ int\ switch\ 1\r\n
 comment2.params=
 comment2.target=int\ getSecondSwitchState()
+comment2.text=\r\n\ This\ gets\ the\ state\ of\ the\ second\ switch\r\n\ @param\ nothing\r\n\ @return\ int\ switch\ 2\r\n
 comment3.params=
 comment3.target=boolean\ getLampState()
+comment3.text=\r\n\ This\ figures\ out\ whether\ the\ lamp\ would\ be\ on\ or\ off\ and\ returns\ false\ if\ off\ and\ true\ if\ on\r\n\ @param\ nothing\r\n\ @return\ boolean\ lamp\ state\r\n
 comment4.params=
 comment4.target=void\ toggleFirstSwitch()
+comment4.text=\r\n\ This\ flips\ the\ first\ switch\r\n\ @param\ nothing\r\n\ @return\ void\r\n
 comment5.params=
 comment5.target=void\ toggleSecondSwitch()
+comment5.text=\r\n\ This\ flips\ the\ second\ switch\r\n\ @param\ nothing\r\n\ @return\ void\r\n
 comment6.params=
 comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ This\ is\ the\ toString\ method\r\n\ @param\ nothing\r\n\ @return\ String\ switch\ 1\ state,\ switch\ 2\ state,\ lamp\ state\r\n
 numComments=7
